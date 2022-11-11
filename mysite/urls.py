@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
 from core import views as core_views
 from portfolio import views as portfolio_views
 from django.conf import settings
+
 
 #enlazamos cada elemento creado del views con uns url de la web
 urlpatterns = [
